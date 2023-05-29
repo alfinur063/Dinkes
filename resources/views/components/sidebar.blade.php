@@ -19,4 +19,11 @@
             <div data-i18n="Analytics">Users</div>
         </a>
     </li>
+
+    <li class="menu-item">
+        <a href="/user-upload" class="menu-link">
+            <i class="menu-icon tf-icons bx bx-home-circle"></i>
+            <div data-i18n="Analytics">User Upload</div>
+        </a>
+    </li>
 </ul>

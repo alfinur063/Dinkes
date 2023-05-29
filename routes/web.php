@@ -24,3 +24,7 @@ Route::get('/users', function () {
 Route::get('/users-template', function () {
     return view('user-template-list');
 });
+
+Route::get('/user-upload', function () {
+    return view('user-upload');
+});
