@@ -72,22 +72,44 @@
                 <!-- Content wrapper -->
                 <div class="content-wrapper">
                     <!-- Content -->
+
                     <div class="container-xxl flex-grow-1 container-p-y">
+
                         <!-- Basic Layout & Basic with Icons -->
                         <div class="row">
                             <!-- Basic Layout -->
                             <div class="col-xxl">
-                                <div class="card">
+                                <div class="card mb-4">
                                     <div class="card-header d-flex align-items-center justify-content-between">
-                                        <h5 class="mb-0">Input Template</h5>
+                                        <h5 class="mb-0">Filter Template</h5>
                                     </div>
                                     <div class="card-body">
                                         <form>
-                                            <div class="row mb-3">
-                                                <input class="form-control" type="file" id="formFile" />
+                                            <div class="mb-3 row">
+                                                <div class="col-md-6">
+                                                    <label for="defaultSelect" class="form-label">Tahun</label>
+                                                    <select id="defaultSelect" class="form-select">
+                                                        <option>Default select</option>
+                                                        <option value="1">2022</option>
+                                                        <option value="2">2023</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label for="defaultSelect" class="form-label">Kab / Kota</label>
+                                                    <select id="defaultSelect" class="form-select">
+                                                        <option>Default select</option>
+                                                        <option value="1">2022</option>
+                                                        <option value="2">2023</option>
+                                                    </select>
+                                                </div>
                                             </div>
+                                            <button type="submit" class="btn btn-md btn-primary">Filter</button>
                                         </form>
                                     </div>
+                                </div>
+
+                                <div class="card">
+
                                 </div>
                             </div>
                         </div>
