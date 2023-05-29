@@ -109,7 +109,32 @@
                                 </div>
 
                                 <div class="card">
-
+                                    <h5 class="card-header">Table Basic</h5>
+                                    <div class="table-responsive text-nowrap">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>User</th>
+                                                    <th>Kabupaten</th>
+                                                    <th>Tahun</th>
+                                                    <th>Action</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="table-border-bottom-0">
+                                                <tr>
+                                                    <td>Bootstrap Project</td>
+                                                    <td>Jerry Milton</td>
+                                                    <td>Jerry Milton</td>
+                                                    <td>2022</td>
+                                                    <td>
+                                                        <i class="bx bx-show me-2"></i>
+                                                        <i class="bx bx-download me-2"></i>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
                             </div>
                         </div>
