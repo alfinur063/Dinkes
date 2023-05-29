@@ -79,7 +79,7 @@
                             <div class="col-xxl">
                                 <div class="card">
                                     <div class="card-header d-flex align-items-center justify-content-between">
-                                        <h5 class="mb-0">Input Template</h5>
+                                        <h5 class="mb-0">Input Templates</h5>
                                     </div>
                                     <div class="card-body">
                                         <form>
