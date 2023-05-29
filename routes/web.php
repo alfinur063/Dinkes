@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/users', function () {
     return view('user-templates');
 });
+
+Route::get('/users-template', function () {
+    return view('user-template-list');
+});
