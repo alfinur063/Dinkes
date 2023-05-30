@@ -3,9 +3,10 @@
     <li class="menu-item">
         <a href={{ url('/') }} class="menu-link">
             <i class="menu-icon tf-icons bx bx-home-circle"></i>
-            <div data-i18n="Analytics">Template Dashboard</div>
+            <div data-i18n="Analytics">Input Template</div>
         </a>
     </li>
+
     <li class="menu-item">
         <a href="/users" class="menu-link">
             <i class="menu-icon tf-icons bx bx-home-circle"></i>
@@ -26,4 +27,14 @@
             <div data-i18n="Analytics">User Upload</div>
         </a>
     </li>
+
+    {{-- Logout --}}
+    <li class="menu-item" style="cursor: pointer">
+        <form action="{{ route('logout') }}" method="POST" class="menu-link">
+            @csrf
+            <i class="menu-icon tf-icons bx bx-log-out"></i>
+            <button type="submit">Logout</button>
+        </form>
+    </li>
+    {{-- Logout --}}
 </ul>
